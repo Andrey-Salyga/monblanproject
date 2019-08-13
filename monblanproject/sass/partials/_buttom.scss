@@ -1,0 +1,28 @@
+.buttom{
+    width: 124px;
+    height: 28px;
+    border: 1px solid #000000;
+    background-color: #fafafa;
+    margin-top: 45px;
+    margin-left: 400px;
+    border-radius: 20px;
+    text-align: center;
+    @media (min-width: 480px) and (max-width: 895px){
+                margin-left: 310px;
+        }
+                @media (min-width: 320px) and (max-width: 479px){
+            position: relative;
+            margin-left: 100px;
+
+        }
+    a{
+      width: 66px;
+      height: 9px;
+      color: #000000;
+      font-family: "Proxima Nova";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: uppercase;
+    }
+}

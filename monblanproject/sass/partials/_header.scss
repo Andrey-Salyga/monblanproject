@@ -1,0 +1,158 @@
+header {
+	width: 100%;
+    height: 198px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+    background-color: #ffffff;
+     @media screen and (max-width: 940px){
+        }
+    .header_name{
+    	display: flex;
+                @media (min-width: 480px) and (max-width: 895px){
+        position: relative;
+        }
+        .logo{
+         @media (min-width: 480px) and (max-width: 895px){
+          position: relative;
+          display: contents;
+        }
+        @media (min-width: 320px) and (max-width: 479px){
+            position: relative;
+        }
+        }
+    	.name_button{
+    		display: flex;
+        @media screen and (max-width: 617px){
+            display: block;
+        }
+    		h3{
+    			width: 216px;
+                height: 33px;
+                color: #262626;
+                font-family: "Myriad Pro";
+                font-size: 35px;
+                font-weight: 400;
+                line-height: 116.29px;
+                letter-spacing: -1.4px;
+                margin-left: 97px;
+        @media (min-width: 480px) and (max-width: 895px){
+            margin-left: 47px;
+            margin-right: 11px;
+        }
+                @media (min-width: 320px) and (max-width: 479px){
+            margin-left: 17px;
+            margin-right: 11px;
+        }
+    		}
+    		.button{
+    			width: 149px;
+                height: 31px;
+                border: 1px solid #4090db;
+                margin: 44px 0 0 20px;
+                text-align: center;
+                z-index: 1;
+    			a{
+    				width: 125px;
+                    height: 12px;
+                    color: #4090db;
+                    font-family: "Helvetica Neue";
+                    font-size: 15px;
+                    font-weight: 400;
+                    letter-spacing: -0.6px;
+    			}
+    		}
+    	}
+    	.header_text{
+    		position: absolute;
+    		display: flex;
+    		margin-top: 96px;
+    		margin-left: 28%;
+        @media (min-width: 480px) and (max-width: 895px){
+            margin-top: 100px;
+            margin-left: 27%;
+        }
+        @media (min-width: 320px) and (max-width: 479px){
+            margin-top: 140px;
+            margin-left: 5%;
+        }
+    		p{
+    			padding-right: 29px;
+    			width: 100%;
+                height: 16px;
+                color: #3d4044;
+                font-family: "Proxima Nova";
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 24px;
+         @media (min-width: 480px) and (max-width: 895px){
+            padding-right: 25px;
+            font-size: 15px;
+        }
+        @media (min-width: 320px) and (max-width: 479px){
+            padding-right: 20px;
+            font-size: 15px;
+        }
+    			span{
+    				font-weight: 700;
+    				padding-right: 6px;
+    			}
+    		}
+    	}
+        .datepicker{
+            padding-top: 140px;
+            position: absolute;
+            padding-left: 261px;
+     @media (min-width: 480px) and (max-width: 895px){
+             padding-left: 203px;
+             padding-top: 150px;
+        }
+                @media (min-width: 320px) and (max-width: 479px){
+            padding-left: 19px;
+            padding-top: 167px;
+        }
+            label{
+                width: 34px;
+                height: 14px;
+                color: #262626;
+                font-family: Tahoma;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 24px;
+                padding-right: 23px;
+            }
+            input{
+                color: #333333;
+                font-family: "Helvetica Neue";
+                font-size: 14px;
+                font-weight: 400;
+                padding-left: 8px;
+                letter-spacing: 0.35px;
+            }
+            .datepicker_from{
+                width: 143px;
+                height: 25px;
+                box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+                border: 1px solid #cccccc;
+                background-color: #ffffff;
+                border-radius: 25px;
+                margin-right: 24px;
+        @media (min-width: 320px) and (max-width: 479px){
+            width: 80px;
+            height: 23px;
+        }
+            }
+            .datepicker_to{
+                width: 143px;
+                height: 25px;
+                box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+                border: 1px solid #cccccc;
+                background-color: #ffffff;
+                border-radius: 25px;
+                        @media (min-width: 320px) and (max-width: 479px){
+            width: 80px;
+            height: 23px;
+        }
+            }
+        }
+    }
+}
+

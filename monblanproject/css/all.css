@@ -1,0 +1,502 @@
+/* SCSS Compiled */
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+*:focus {
+  outline: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*@media*/
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+/*@media end*/
+/* Brand Colors ------------------------------------------------*/
+.layout {
+  margin: 0 auto;
+  position: relative;
+  width: 1400px; }
+
+main {
+  display: block;
+  width: 100%;
+  position: relative; }
+
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+*:focus {
+  outline: none; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img {
+  border-style: none;
+  max-width: 100%; }
+
+form fieldset {
+  margin: 0;
+  padding: 0;
+  border: none; }
+
+input, textarea, select {
+  vertical-align: middle;
+  color: #000;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+/*@media*/
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+/*@media end*/
+/* Brand Colors ------------------------------------------------*/
+header {
+  width: 100%;
+  height: 198px;
+  -webkit-box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff; }
+  header .header_name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media (min-width: 480px) and (max-width: 895px) {
+      header .header_name {
+        position: relative; } }
+    @media (min-width: 480px) and (max-width: 895px) {
+      header .header_name .logo {
+        position: relative;
+        display: contents; } }
+    @media (min-width: 320px) and (max-width: 479px) {
+      header .header_name .logo {
+        position: relative; } }
+    header .header_name .name_button {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      @media screen and (max-width: 617px) {
+        header .header_name .name_button {
+          display: block; } }
+      header .header_name .name_button h3 {
+        width: 216px;
+        height: 33px;
+        color: #262626;
+        font-family: "Myriad Pro";
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 116.29px;
+        letter-spacing: -1.4px;
+        margin-left: 97px; }
+        @media (min-width: 480px) and (max-width: 895px) {
+          header .header_name .name_button h3 {
+            margin-left: 47px;
+            margin-right: 11px; } }
+        @media (min-width: 320px) and (max-width: 479px) {
+          header .header_name .name_button h3 {
+            margin-left: 17px;
+            margin-right: 11px; } }
+      header .header_name .name_button .button {
+        width: 149px;
+        height: 31px;
+        border: 1px solid #4090db;
+        margin: 44px 0 0 20px;
+        text-align: center;
+        z-index: 1; }
+        header .header_name .name_button .button a {
+          width: 125px;
+          height: 12px;
+          color: #4090db;
+          font-family: "Helvetica Neue";
+          font-size: 15px;
+          font-weight: 400;
+          letter-spacing: -0.6px; }
+    header .header_name .header_text {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 96px;
+      margin-left: 28%; }
+      @media (min-width: 480px) and (max-width: 895px) {
+        header .header_name .header_text {
+          margin-top: 100px;
+          margin-left: 27%; } }
+      @media (min-width: 320px) and (max-width: 479px) {
+        header .header_name .header_text {
+          margin-top: 140px;
+          margin-left: 5%; } }
+      header .header_name .header_text p {
+        padding-right: 29px;
+        width: 100%;
+        height: 16px;
+        color: #3d4044;
+        font-family: "Proxima Nova";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px; }
+        @media (min-width: 480px) and (max-width: 895px) {
+          header .header_name .header_text p {
+            padding-right: 25px;
+            font-size: 15px; } }
+        @media (min-width: 320px) and (max-width: 479px) {
+          header .header_name .header_text p {
+            padding-right: 20px;
+            font-size: 15px; } }
+        header .header_name .header_text p span {
+          font-weight: 700;
+          padding-right: 6px; }
+    header .header_name .datepicker {
+      padding-top: 140px;
+      position: absolute;
+      padding-left: 261px; }
+      @media (min-width: 480px) and (max-width: 895px) {
+        header .header_name .datepicker {
+          padding-left: 203px;
+          padding-top: 150px; } }
+      @media (min-width: 320px) and (max-width: 479px) {
+        header .header_name .datepicker {
+          padding-left: 19px;
+          padding-top: 167px; } }
+      header .header_name .datepicker label {
+        width: 34px;
+        height: 14px;
+        color: #262626;
+        font-family: Tahoma;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-right: 23px; }
+      header .header_name .datepicker input {
+        color: #333333;
+        font-family: "Helvetica Neue";
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 8px;
+        letter-spacing: 0.35px; }
+      header .header_name .datepicker .datepicker_from {
+        width: 143px;
+        height: 25px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+        box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        border-radius: 25px;
+        margin-right: 24px; }
+        @media (min-width: 320px) and (max-width: 479px) {
+          header .header_name .datepicker .datepicker_from {
+            width: 80px;
+            height: 23px; } }
+      header .header_name .datepicker .datepicker_to {
+        width: 143px;
+        height: 25px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+        box-shadow: inset 0 1px 1px rgba(1, 1, 1, 0.15);
+        border: 1px solid #cccccc;
+        background-color: #ffffff;
+        border-radius: 25px; }
+        @media (min-width: 320px) and (max-width: 479px) {
+          header .header_name .datepicker .datepicker_to {
+            width: 80px;
+            height: 23px; } }
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa; }
+  main .portfolio_slide .photo_card {
+    padding-top: 71px; }
+    @media (min-width: 480px) and (max-width: 895px) {
+      main .portfolio_slide .photo_card {
+        text-align: center; } }
+    @media (min-width: 320px) and (max-width: 479px) {
+      main .portfolio_slide .photo_card {
+        text-align: center; } }
+    main .portfolio_slide .photo_card .photo {
+      display: inline-block;
+      position: relative;
+      margin: 8px; }
+      main .portfolio_slide .photo_card .photo .video {
+        position: absolute;
+        padding-left: 248px; }
+      main .portfolio_slide .photo_card .photo .portfolio_text {
+        position: absolute;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        opacity: 0;
+        top: 10%;
+        -webkit-transition: all .5s;
+        -o-transition: all .5s;
+        transition: all .5s; }
+        main .portfolio_slide .photo_card .photo .portfolio_text:hover {
+          opacity: 0.6;
+          top: 0; }
+        main .portfolio_slide .photo_card .photo .portfolio_text img {
+          width: 21px;
+          height: 19px;
+          padding-top: 177px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .photo_name {
+          width: 46px;
+          height: 16px;
+          color: #ffffff;
+          font-family: "Proxima Nova - Semibold";
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 24px;
+          padding: 177px 54px 0 20px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .photo_nametext {
+          padding-top: 177px;
+          padding-right: 22px;
+          width: 27px;
+          height: 12px;
+          color: #ffffff;
+          font-family: "Proxima Nova";
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 24px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .comment_text {
+          width: 27px;
+          padding-top: 177px;
+          padding-right: 22px;
+          width: 27px;
+          height: 12px;
+          color: #ffffff;
+          font-family: "Proxima Nova";
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 24px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .text {
+          position: absolute;
+          width: 78px;
+          height: 13px;
+          color: #ffffff;
+          font-family: "Proxima Nova - Semibold";
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 24px;
+          padding-top: 217px;
+          padding-left: 18px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .like {
+          position: absolute;
+          padding-top: 217px;
+          padding-left: 120px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .like_text {
+          position: absolute;
+          padding-top: 217px;
+          padding-left: 137px;
+          width: 27px;
+          height: 12px;
+          color: #ffffff;
+          font-family: "Proxima Nova";
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 24px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .comment {
+          position: absolute;
+          padding-top: 217px;
+          padding-left: 191px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .comment_text_2 {
+          position: absolute;
+          padding-top: 217px;
+          padding-left: 210px;
+          width: 27px;
+          height: 12px;
+          color: #ffffff;
+          font-family: "Proxima Nova";
+          font-size: 17px;
+          font-weight: 700;
+          line-height: 24px; }
+        main .portfolio_slide .photo_card .photo .portfolio_text .info_text {
+          position: absolute;
+          padding-top: 262px;
+          padding-left: 46px;
+          width: 192px;
+          height: 16px;
+          color: #ffffff;
+          font-family: "Proxima Nova - Semibold";
+          font-size: 17px;
+          font-weight: 400;
+          line-height: 24px; }
+
+.buttom {
+  width: 124px;
+  height: 28px;
+  border: 1px solid #000000;
+  background-color: #fafafa;
+  margin-top: 45px;
+  margin-left: 400px;
+  border-radius: 20px;
+  text-align: center; }
+  @media (min-width: 480px) and (max-width: 895px) {
+    .buttom {
+      margin-left: 310px; } }
+  @media (min-width: 320px) and (max-width: 479px) {
+    .buttom {
+      position: relative;
+      margin-left: 100px; } }
+  .buttom a {
+    width: 66px;
+    height: 9px;
+    color: #000000;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase; }
+
+.layout {
+  width: 936px;
+  margin: 0 auto;
+  font-family: "Ubuntu", sans-serif; }
+  @media (min-width: 768px) and (max-width: 1359px) {
+    .layout {
+      min-width: 760px;
+      width: 100%;
+      margin: 0 auto; } }
+  @media (min-width: 320px) and (max-width: 767px) {
+    .layout {
+      min-width: 320px;
+      width: 100%; } }

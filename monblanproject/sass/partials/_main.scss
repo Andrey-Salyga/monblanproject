@@ -1,0 +1,141 @@
+main{
+	width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    .portfolio_slide{
+        .photo_card{
+            padding-top: 71px;
+                    @media (min-width: 480px) and (max-width: 895px){
+                        text-align: center;
+        }
+                @media (min-width: 320px) and (max-width: 479px){
+                    text-align: center;
+        }
+            .photo{
+                    display: inline-block;
+                    position: relative;
+                    margin: 8px;
+                    .video{
+                        position: absolute;
+                        padding-left: 248px;
+                    } 
+                    .portfolio_text{
+                        position: absolute;
+                        display: flex;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                        background-color: #000000;
+                        color: #ffffff;
+                        text-align: center;
+                        opacity: 0;
+                        top:10%;
+                        -webkit-transition: all .5s;
+                        -o-transition: all .5s;
+                        transition: all .5s;
+                    &:hover{
+                        opacity: 0.6;
+                        top:0;
+                    }
+                        img{
+                            width: 21px;
+                            height: 19px;
+                            padding-top: 177px;
+                        }
+                    .photo_name{
+                        width: 46px;
+                        height: 16px;
+                        color: #ffffff;
+                        font-family: "Proxima Nova - Semibold";
+                        font-size: 17px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        padding: 177px 54px 0 20px;
+                    }
+                        .photo_nametext{
+                            padding-top: 177px;
+                            padding-right: 22px;
+                            width: 27px;
+                            height: 12px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova";
+                            font-size: 17px;
+                            font-weight: 700;
+                             line-height: 24px;
+                        }
+                        .comment_text{
+                            width: 27px;
+                            padding-top: 177px;
+                            padding-right: 22px;
+                            width: 27px;
+                            height: 12px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova";
+                            font-size: 17px;
+                            font-weight: 700;
+                             line-height: 24px;
+                        }
+                        .text{
+                            position: absolute;
+                            width: 78px;
+                            height: 13px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova - Semibold";
+                            font-size: 17px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            padding-top: 217px;
+                            padding-left: 18px;
+                        }
+                        .like{
+                            position: absolute;
+                            padding-top: 217px;
+                            padding-left: 120px;
+                        }
+                        .like_text{
+                            position: absolute;
+                            padding-top: 217px;
+                            padding-left: 137px;
+                            width: 27px;
+                            height: 12px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova";
+                            font-size: 17px;
+                            font-weight: 700;
+                            line-height: 24px;
+                        }
+                        .comment{
+                            position: absolute;
+                            padding-top: 217px;
+                            padding-left: 191px;
+                        }
+                        .comment_text_2{
+                            position: absolute;
+                            padding-top: 217px;
+                            padding-left: 210px;
+                            width: 27px;
+                            height: 12px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova";
+                            font-size: 17px;
+                            font-weight: 700;
+                            line-height: 24px;
+                        }
+                        .info_text{
+                            position: absolute;
+                            padding-top: 262px;
+                            padding-left: 46px;
+                            width: 192px;
+                            height: 16px;
+                            color: #ffffff;
+                            font-family: "Proxima Nova - Semibold";
+                            font-size: 17px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.layout{
+	width: $width-layout;
+	margin: 0 auto;
+	font-family: $font-family-main;
+@media (min-width: 1360px) and (max-width: 1919px) {
+	
+}
+@media (min-width: 768px) and (max-width: 1359px) {
+	min-width: 760px;
+	width:100%;
+	margin:0 auto;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	min-width: 320px;
+	width:100%;
+}
+}
